@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B818D479162E026900824E5C /* NotesTextFile.m in Sources */ = {isa = PBXBuildFile; fileRef = B818D478162E026900824E5C /* NotesTextFile.m */; };
 		B85E4698162A006E004506B9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B85E4697162A006E004506B9 /* UIKit.framework */; };
 		B85E469A162A006E004506B9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B85E4699162A006E004506B9 /* Foundation.framework */; };
 		B85E469C162A006E004506B9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B85E469B162A006E004506B9 /* CoreGraphics.framework */; };
@@ -17,15 +18,21 @@
 		B85E46AC162A006E004506B9 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B85E46AB162A006E004506B9 /* Default@2x.png */; };
 		B85E46AE162A006E004506B9 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B85E46AD162A006E004506B9 /* Default-568h@2x.png */; };
 		B85E46B1162A006E004506B9 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B85E46AF162A006E004506B9 /* MainStoryboard.storyboard */; };
-		B85E46B4162A006E004506B9 /* NotesFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B85E46B3162A006E004506B9 /* NotesFirstViewController.m */; };
 		B85E46B6162A006E004506B9 /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = B85E46B5162A006E004506B9 /* first.png */; };
 		B85E46B8162A006E004506B9 /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B85E46B7162A006E004506B9 /* first@2x.png */; };
 		B85E46BB162A006E004506B9 /* NotesSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B85E46BA162A006E004506B9 /* NotesSecondViewController.m */; };
 		B85E46BD162A006E004506B9 /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = B85E46BC162A006E004506B9 /* second.png */; };
 		B85E46BF162A006E004506B9 /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B85E46BE162A006E004506B9 /* second@2x.png */; };
+		B85E46FE162A010D004506B9 /* NotesMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B85E46FB162A010D004506B9 /* NotesMasterViewController.m */; };
+		B85E46FF162A010D004506B9 /* NotesDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B85E46FD162A010D004506B9 /* NotesDetailViewController.m */; };
+		B88EA870162E4B9D00FC5844 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B88EA86F162E4B9D00FC5844 /* CoreLocation.framework */; };
+		B88EA873162E4BA300FC5844 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B88EA872162E4BA300FC5844 /* MapKit.framework */; };
+		B88EA876162E59AE00FC5844 /* NotesLocationSingleton.m in Sources */ = {isa = PBXBuildFile; fileRef = B88EA875162E59AE00FC5844 /* NotesLocationSingleton.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B818D477162E026900824E5C /* NotesTextFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NotesTextFile.h; sourceTree = "<group>"; };
+		B818D478162E026900824E5C /* NotesTextFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NotesTextFile.m; sourceTree = "<group>"; };
 		B85E4693162A006E004506B9 /* Notes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Notes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B85E4697162A006E004506B9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		B85E4699162A006E004506B9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -40,14 +47,20 @@
 		B85E46AB162A006E004506B9 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		B85E46AD162A006E004506B9 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		B85E46B0162A006E004506B9 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		B85E46B2162A006E004506B9 /* NotesFirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NotesFirstViewController.h; sourceTree = "<group>"; };
-		B85E46B3162A006E004506B9 /* NotesFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NotesFirstViewController.m; sourceTree = "<group>"; };
 		B85E46B5162A006E004506B9 /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
 		B85E46B7162A006E004506B9 /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
 		B85E46B9162A006E004506B9 /* NotesSecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NotesSecondViewController.h; sourceTree = "<group>"; };
 		B85E46BA162A006E004506B9 /* NotesSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NotesSecondViewController.m; sourceTree = "<group>"; };
 		B85E46BC162A006E004506B9 /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
 		B85E46BE162A006E004506B9 /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
+		B85E46FA162A010D004506B9 /* NotesMasterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NotesMasterViewController.h; sourceTree = "<group>"; };
+		B85E46FB162A010D004506B9 /* NotesMasterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NotesMasterViewController.m; sourceTree = "<group>"; };
+		B85E46FC162A010D004506B9 /* NotesDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NotesDetailViewController.h; sourceTree = "<group>"; };
+		B85E46FD162A010D004506B9 /* NotesDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NotesDetailViewController.m; sourceTree = "<group>"; };
+		B88EA86F162E4B9D00FC5844 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		B88EA872162E4BA300FC5844 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		B88EA874162E59AE00FC5844 /* NotesLocationSingleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NotesLocationSingleton.h; sourceTree = "<group>"; };
+		B88EA875162E59AE00FC5844 /* NotesLocationSingleton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NotesLocationSingleton.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +68,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B88EA873162E4BA300FC5844 /* MapKit.framework in Frameworks */,
+				B88EA870162E4B9D00FC5844 /* CoreLocation.framework in Frameworks */,
 				B85E4698162A006E004506B9 /* UIKit.framework in Frameworks */,
 				B85E469A162A006E004506B9 /* Foundation.framework in Frameworks */,
 				B85E469C162A006E004506B9 /* CoreGraphics.framework in Frameworks */,
@@ -67,6 +82,8 @@
 		B85E4688162A006E004506B9 = {
 			isa = PBXGroup;
 			children = (
+				B88EA872162E4BA300FC5844 /* MapKit.framework */,
+				B88EA86F162E4B9D00FC5844 /* CoreLocation.framework */,
 				B85E469D162A006E004506B9 /* Notes */,
 				B85E4696162A006E004506B9 /* Frameworks */,
 				B85E4694162A006E004506B9 /* Products */,
@@ -97,8 +114,14 @@
 				B85E46A6162A006E004506B9 /* NotesAppDelegate.h */,
 				B85E46A7162A006E004506B9 /* NotesAppDelegate.m */,
 				B85E46AF162A006E004506B9 /* MainStoryboard.storyboard */,
-				B85E46B2162A006E004506B9 /* NotesFirstViewController.h */,
-				B85E46B3162A006E004506B9 /* NotesFirstViewController.m */,
+				B85E46FA162A010D004506B9 /* NotesMasterViewController.h */,
+				B85E46FB162A010D004506B9 /* NotesMasterViewController.m */,
+				B818D477162E026900824E5C /* NotesTextFile.h */,
+				B818D478162E026900824E5C /* NotesTextFile.m */,
+				B85E46FC162A010D004506B9 /* NotesDetailViewController.h */,
+				B85E46FD162A010D004506B9 /* NotesDetailViewController.m */,
+				B88EA874162E59AE00FC5844 /* NotesLocationSingleton.h */,
+				B88EA875162E59AE00FC5844 /* NotesLocationSingleton.m */,
 				B85E46B5162A006E004506B9 /* first.png */,
 				B85E46B7162A006E004506B9 /* first@2x.png */,
 				B85E46B9162A006E004506B9 /* NotesSecondViewController.h */,
@@ -197,8 +220,11 @@
 			files = (
 				B85E46A4162A006E004506B9 /* main.m in Sources */,
 				B85E46A8162A006E004506B9 /* NotesAppDelegate.m in Sources */,
-				B85E46B4162A006E004506B9 /* NotesFirstViewController.m in Sources */,
 				B85E46BB162A006E004506B9 /* NotesSecondViewController.m in Sources */,
+				B85E46FE162A010D004506B9 /* NotesMasterViewController.m in Sources */,
+				B85E46FF162A010D004506B9 /* NotesDetailViewController.m in Sources */,
+				B818D479162E026900824E5C /* NotesTextFile.m in Sources */,
+				B88EA876162E59AE00FC5844 /* NotesLocationSingleton.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -315,6 +341,7 @@
 				B85E46C4162A006E004506B9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
